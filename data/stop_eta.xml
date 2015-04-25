@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NextBuses xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+  <NextBus>
+    <RouteNo>135</RouteNo>
+    <RouteName>SFU/BURRARD STN</RouteName>
+    <Direction>WEST</Direction>
+    <RouteMap>
+      <Href>http://nb.translink.ca/geodata/135.kmz</Href>
+    </RouteMap>
+    <Schedules>
+      <Schedule>
+        <Pattern>WB1</Pattern>
+        <Destination>BURRARD STN</Destination>
+        <ExpectedLeaveTime>11:02pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>11</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>09:59:15 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>WB1</Pattern>
+        <Destination>BURRARD STN</Destination>
+        <ExpectedLeaveTime>11:22pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>31</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>10:20:14 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>WB1</Pattern>
+        <Destination>BURRARD STN</Destination>
+        <ExpectedLeaveTime>11:37pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>46</ExpectedCountdown>
+        <ScheduleStatus />
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>10:35:10 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>WB1</Pattern>
+        <Destination>BURRARD STN</Destination>
+        <ExpectedLeaveTime>11:52pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>61</ExpectedCountdown>
+        <ScheduleStatus />
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>10:50:03 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>WB1</Pattern>
+        <Destination>BURRARD STN</Destination>
+        <ExpectedLeaveTime>12:07am</ExpectedLeaveTime>
+        <ExpectedCountdown>76</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>12:00:48 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>WB1</Pattern>
+        <Destination>BURRARD STN</Destination>
+        <ExpectedLeaveTime>12:37am</ExpectedLeaveTime>
+        <ExpectedCountdown>106</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>12:00:48 pm</LastUpdate>
+      </Schedule>
+    </Schedules>
+  </NextBus>
+  <NextBus>
+    <RouteNo>144</RouteNo>
+    <RouteName>SFU/METROTOWN STN</RouteName>
+    <Direction>SOUTH</Direction>
+    <RouteMap>
+      <Href>http://nb.translink.ca/geodata/144.kmz</Href>
+    </RouteMap>
+    <Schedules>
+      <Schedule>
+        <Pattern>SB1</Pattern>
+        <Destination>METROTOWN STN</Destination>
+        <ExpectedLeaveTime>10:57pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>6</ExpectedCountdown>
+        <ScheduleStatus />
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>09:54:02 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>SB1</Pattern>
+        <Destination>METROTOWN STN</Destination>
+        <ExpectedLeaveTime>11:29pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>38</ExpectedCountdown>
+        <ScheduleStatus>-</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>10:24:17 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>SB1</Pattern>
+        <Destination>METROTOWN STN</Destination>
+        <ExpectedLeaveTime>11:57pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>66</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>12:00:48 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>SB1</Pattern>
+        <Destination>METROTOWN STN</Destination>
+        <ExpectedLeaveTime>12:33am</ExpectedLeaveTime>
+        <ExpectedCountdown>102</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>12:00:48 pm</LastUpdate>
+      </Schedule>
+    </Schedules>
+  </NextBus>
+  <NextBus>
+    <RouteNo>145</RouteNo>
+    <RouteName>SFU/PRODUCTION STN</RouteName>
+    <Direction>SOUTH</Direction>
+    <RouteMap>
+      <Href>http://nb.translink.ca/geodata/145.kmz</Href>
+    </RouteMap>
+    <Schedules>
+      <Schedule>
+        <Pattern>SB1</Pattern>
+        <Destination>PRODUCTION STN</Destination>
+        <ExpectedLeaveTime>11:17pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>26</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>10:15:16 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>SB1</Pattern>
+        <Destination>PRODUCTION STN</Destination>
+        <ExpectedLeaveTime>11:47pm 2015-04-24</ExpectedLeaveTime>
+        <ExpectedCountdown>56</ExpectedCountdown>
+        <ScheduleStatus />
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>10:45:13 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>SB1</Pattern>
+        <Destination>PRODUCTION STN</Destination>
+        <ExpectedLeaveTime>12:17am</ExpectedLeaveTime>
+        <ExpectedCountdown>86</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>12:00:48 pm</LastUpdate>
+      </Schedule>
+      <Schedule>
+        <Pattern>SB2</Pattern>
+        <Destination>PRODUCTION STN</Destination>
+        <ExpectedLeaveTime>12:47am</ExpectedLeaveTime>
+        <ExpectedCountdown>116</ExpectedCountdown>
+        <ScheduleStatus>*</ScheduleStatus>
+        <CancelledTrip>false</CancelledTrip>
+        <CancelledStop>false</CancelledStop>
+        <AddedTrip>false</AddedTrip>
+        <AddedStop>false</AddedStop>
+        <LastUpdate>12:00:48 pm</LastUpdate>
+      </Schedule>
+    </Schedules>
+  </NextBus>
+</NextBuses>

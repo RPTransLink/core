@@ -1,0 +1,200 @@
+[  
+  {  
+    "RouteNo":"135",
+    "RouteName":"SFU\/BURRARD STN",
+    "Direction":"WEST",
+    "RouteMap":{  
+      "Href":"http:\/\/nb.translink.ca\/geodata\/135.kmz"
+    },
+    "Schedules":[  
+      {  
+        "Pattern":"WB1",
+        "Destination":"BURRARD STN",
+        "ExpectedLeaveTime":"10:47pm 2015-04-24",
+        "ExpectedCountdown":11,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"09:44:11 pm"
+      },
+      {  
+        "Pattern":"WB1",
+        "Destination":"BURRARD STN",
+        "ExpectedLeaveTime":"11:02pm 2015-04-24",
+        "ExpectedCountdown":26,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"09:59:15 pm"
+      },
+      {  
+        "Pattern":"WB1",
+        "Destination":"BURRARD STN",
+        "ExpectedLeaveTime":"11:22pm 2015-04-24",
+        "ExpectedCountdown":46,
+        "ScheduleStatus":" ",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"10:20:14 pm"
+      },
+      {  
+        "Pattern":"WB1",
+        "Destination":"BURRARD STN",
+        "ExpectedLeaveTime":"11:37pm 2015-04-24",
+        "ExpectedCountdown":61,
+        "ScheduleStatus":" ",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"10:35:10 pm"
+      },
+      {  
+        "Pattern":"WB1",
+        "Destination":"BURRARD STN",
+        "ExpectedLeaveTime":"11:52pm 2015-04-24",
+        "ExpectedCountdown":76,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"12:00:48 pm"
+      },
+      {  
+        "Pattern":"WB1",
+        "Destination":"BURRARD STN",
+        "ExpectedLeaveTime":"12:07am",
+        "ExpectedCountdown":91,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"12:00:48 pm"
+      }
+    ]
+  },
+  {  
+    "RouteNo":"144",
+    "RouteName":"SFU\/METROTOWN STN              ",
+    "Direction":"SOUTH",
+    "RouteMap":{  
+      "Href":"http:\/\/nb.translink.ca\/geodata\/144.kmz"
+    },
+    "Schedules":[  
+      {  
+        "Pattern":"SB1",
+        "Destination":"METROTOWN STN",
+        "ExpectedLeaveTime":"10:57pm 2015-04-24",
+        "ExpectedCountdown":21,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"09:54:02 pm"
+      },
+      {  
+        "Pattern":"SB1",
+        "Destination":"METROTOWN STN",
+        "ExpectedLeaveTime":"11:27pm 2015-04-24",
+        "ExpectedCountdown":51,
+        "ScheduleStatus":" ",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"10:24:17 pm"
+      },
+      {  
+        "Pattern":"SB1",
+        "Destination":"METROTOWN STN",
+        "ExpectedLeaveTime":"11:57pm 2015-04-24",
+        "ExpectedCountdown":81,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"12:00:48 pm"
+      },
+      {  
+        "Pattern":"SB1",
+        "Destination":"METROTOWN STN",
+        "ExpectedLeaveTime":"12:33am",
+        "ExpectedCountdown":117,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"12:00:48 pm"
+      }
+    ]
+  },
+  {  
+    "RouteNo":"145",
+    "RouteName":"SFU\/PRODUCTION STN",
+    "Direction":"SOUTH",
+    "RouteMap":{  
+      "Href":"http:\/\/nb.translink.ca\/geodata\/145.kmz"
+    },
+    "Schedules":[  
+      {  
+        "Pattern":"SB1",
+        "Destination":"PRODUCTION STN",
+        "ExpectedLeaveTime":"10:48pm 2015-04-24",
+        "ExpectedCountdown":12,
+        "ScheduleStatus":"-",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"09:45:05 pm"
+      },
+      {  
+        "Pattern":"SB1",
+        "Destination":"PRODUCTION STN",
+        "ExpectedLeaveTime":"11:17pm 2015-04-24",
+        "ExpectedCountdown":41,
+        "ScheduleStatus":" ",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"10:15:16 pm"
+      },
+      {  
+        "Pattern":"SB1",
+        "Destination":"PRODUCTION STN",
+        "ExpectedLeaveTime":"11:47pm 2015-04-24",
+        "ExpectedCountdown":71,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"12:00:48 pm"
+      },
+      {  
+        "Pattern":"SB1",
+        "Destination":"PRODUCTION STN",
+        "ExpectedLeaveTime":"12:17am",
+        "ExpectedCountdown":101,
+        "ScheduleStatus":"*",
+        "CancelledTrip":false,
+        "CancelledStop":false,
+        "AddedTrip":false,
+        "AddedStop":false,
+        "LastUpdate":"12:00:48 pm"
+      }
+    ]
+  }
+]
