@@ -1,2 +1,2 @@
 # core
-Reusable Business Logic for all platforms for Translink Vancouver
+Multi-platform project for Translink Vancouver based on GhoneGap
