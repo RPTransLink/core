@@ -27,6 +27,9 @@
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+		<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
         <title>Hello World</title>
     </head>
     <body>
@@ -42,5 +45,83 @@
         <script type="text/javascript">
             app.initialize();
         </script>
+		<script>
+			function generateStopEta(obj) {
+				var content = $("#content");
+						
+				for (var i = 0; i < obj.length; i++) {
+					var o = obj[i];
+					
+					var elem = $('<h3>');
+					elem.appendTo(content);
+					//display less than 3 schedules and route no
+					var str = "";
+					str += o.RouteNo + ': ';
+					for (var j = 0; j < (o.Schedules.length > 3 ? 3 : o.Schedules.length); j++) {
+						var schedule = o.Schedules[j];
+						var eta = schedule.ExpectedCountdown;
+						var status = schedule.ScheduleStatus;
+						str += eta + status + ' ';
+					}
+					elem.text(str);
+					
+					var div = $('<div>');
+					div.appendTo(content);
+					for (var j = 0; j < o.Schedules.length; j++) {
+						var schedule = o.Schedules[j];
+						var eta = schedule.ExpectedCountdown;
+						var status = schedule.ScheduleStatus;
+						var subdiv = $('<div>');
+						var str = "";
+						str = 'in ' + eta + ' minutes';
+						if (status == '*') {
+							str += ': scheduled time';
+						} else if (status == '-') {
+							str += ': delayed';
+						} else if (status == '+') {
+							str += ': ahead of schedule';
+						}
+						subdiv.text(str);
+						subdiv.appendTo(div);
+					}
+				}
+				//jQuery UI
+				$("#content").accordion({
+					active: false,
+					collapsible: true,
+					animate: 100
+				});
+			}
+		
+			function requestStopEta(stopNo) {
+				var xhr = new XMLHttpRequest();
+				xhr.onreadystatechange=function () {
+					if (xhr.readyState==4 && xhr.status==200) {
+						var obj = JSON.parse(xhr.responseText);
+						generateStopEta(obj);
+					}
+				};
+				var url = "http://api.translink.ca/rttiapi/v1/stops/" + stopNo + "/estimates?apikey=E6XZjgM6n0GHtxDkoduN";
+				
+				xhr.open("GET",url,true);
+				xhr.setRequestHeader("accept","application/JSON");
+				xhr.send();
+			}
+			
+			function stopNoEntered() {
+				var stopNo = $('#stopNo').val();
+				requestStopEta(stopNo);
+			}
+			
+			//initialization - jQuery
+			$(function() {
+				//DOM is ready
+				$('#stopNo').change(stopNoEntered);
+			});
+		</script>	
+		<div id="mainDiv" style="position:absolute;border:1px solid red;top:20px;left:0;right:0;bottom:0">
+			<div>Stop No.<input id="stopNo" /></div>
+			<div id="content" style="border:1px solid green;width:100%;height:100%;overflow:scroll"></div>
+		</div>
     </body>
 </html>
