@@ -13,4 +13,6 @@ Features: <br />
 1. Given stop number, return stop estimates: first provide a brief estimates info given the stop number, then one can check into details the estimates of a bus route.
 
 To do list: <br />
-1. For feature #1: deal with not wrong stop number; if there is only one bus route, provide detailed info by default; provide bus route name; provide stop name.
+1. For feature #1: deal with not wrong stop number; if there is only one bus route, provide detailed info by default; provide bus route name; provide stop name. <br />
+2. Persist stop number user typed and use a certain way to display stored stop number (least recently used etc.) <br />
+3. Given Geo location info, return nearest stops, distance serve as a parameter.
